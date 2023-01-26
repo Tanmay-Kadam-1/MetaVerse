@@ -1,9 +1,5 @@
-'use client';
+"use client";
 
-const Footer = () => (
-  <footer>
-    footer
-  </footer>
-);
+const Footer = () => <footer>Footer</footer>;
 
 export default Footer;
