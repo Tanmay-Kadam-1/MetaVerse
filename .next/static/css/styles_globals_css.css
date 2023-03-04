@@ -487,6 +487,10 @@ video {
   left: 0px;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -561,6 +565,10 @@ video {
   gap: 2rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-r-\[50px\] {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -573,6 +581,11 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-primary-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 35 46 / var(--tw-bg-opacity));
 }
 
 .object-contain {
