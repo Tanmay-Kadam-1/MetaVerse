@@ -521,12 +521,12 @@ video {
   margin-top: -50px;
 }
 
-.mr-auto {
-  margin-right: auto;
+.mt-\[8px\] {
+  margin-top: 8px;
 }
 
-.ml-auto {
-  margin-left: auto;
+.mt-\[28px\] {
+  margin-top: 28px;
 }
 
 .flex {
@@ -545,10 +545,6 @@ video {
   height: 300px;
 }
 
-.h-\[38px\] {
-  height: 38px;
-}
-
 .h-\[350px\] {
   height: 350px;
 }
@@ -557,8 +553,12 @@ video {
   height: 100px;
 }
 
-.h-\[10px\] {
-  height: 10px;
+.h-\[38px\] {
+  height: 38px;
+}
+
+.h-\[28px\] {
+  height: 28px;
 }
 
 .w-\[50\%\] {
@@ -573,6 +573,10 @@ video {
   width: 100%;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -581,8 +585,8 @@ video {
   width: 60px;
 }
 
-.w-\[100px\] {
-  width: 100px;
+.w-\[18px\] {
+  width: 18px;
 }
 
 .flex-row {
@@ -619,10 +623,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.self-center {
-  align-self: center;
 }
 
 .overflow-hidden {
@@ -681,6 +681,10 @@ video {
   padding-left: 1.5rem;
 }
 
+.pr-\[40px\] {
+  padding-right: 40px;
+}
+
 .pt-12 {
   padding-top: 3rem;
 }
@@ -693,8 +697,8 @@ video {
   padding-top: 98px;
 }
 
-.pr-\[40px\] {
-  padding-right: 40px;
+.text-center {
+  text-align: center;
 }
 
 .text-\[24px\] {
@@ -705,12 +709,20 @@ video {
   font-size: 44px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
@@ -728,6 +740,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-secondary-white {
+  --tw-text-opacity: 1;
+  color: rgb(199 199 199 / var(--tw-text-opacity));
 }
 
 * {
@@ -845,28 +862,24 @@ video {
     margin-top: -70px;
   }
 
-  .sm\:h-\[48px\] {
-    height: 48px;
-  }
-
   .sm\:h-\[300px\] {
     height: 300px;
-  }
-
-  .sm\:h-\[150px\] {
-    height: 150px;
   }
 
   .sm\:h-\[155px\] {
     height: 155px;
   }
 
-  .sm\:w-\[80px\] {
-    width: 80px;
+  .sm\:h-\[48px\] {
+    height: 48px;
   }
 
   .sm\:w-\[155px\] {
     width: 155px;
+  }
+
+  .sm\:w-\[80px\] {
+    width: 80px;
   }
 
   .sm\:p-16 {
@@ -897,6 +910,10 @@ video {
 
   .sm\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .sm\:text-\[32px\] {
+    font-size: 32px;
   }
 
   .sm\:leading-\[74\.4px\] {
