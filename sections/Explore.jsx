@@ -1,9 +1,12 @@
-'use client';
+"use client";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
-const Explore = () => (
-  <section>
-    Explore section
-  </section>
-);
+import styles from "../styles";
+import { exploreWorlds } from "../constants";
+import { staggerContainer } from "../utils/motion";
+import { ExploreCard, TitleText, TypingText } from "../components";
+
+const Explore = () => <section>Explore section</section>;
 
 export default Explore;
