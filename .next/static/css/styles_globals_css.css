@@ -487,10 +487,6 @@ video {
   left: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .-top-\[30px\] {
   top: -30px;
 }
@@ -519,14 +515,6 @@ video {
 
 .mt-\[8px\] {
   margin-top: 8px;
-}
-
-.mb-\[16px\] {
-  margin-bottom: 16px;
-}
-
-.mt-\[24px\] {
-  margin-top: 24px;
 }
 
 .mt-\[28px\] {
@@ -561,14 +549,6 @@ video {
   height: 100%;
 }
 
-.h-\[60px\] {
-  height: 60px;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
 .h-\[24px\] {
   height: 24px;
 }
@@ -601,14 +581,6 @@ video {
   width: 100%;
 }
 
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-\[50\%\] {
   width: 50%;
 }
@@ -627,6 +599,10 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[60px\] {
+  width: 60px;
 }
 
 .min-w-\[170px\] {
@@ -693,11 +669,6 @@ video {
   border-radius: 24px;
 }
 
-.rounded-b-\[24px\] {
-  border-bottom-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-}
-
 .rounded-r-\[50px\] {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -721,10 +692,6 @@ video {
   background-color: rgb(26 35 46 / var(--tw-bg-opacity));
 }
 
-.bg-\[rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
-  background-color: rgba(0,0,0,0.5);
-}
-
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -733,10 +700,6 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .py-8 {
@@ -786,14 +749,6 @@ video {
   font-size: 40px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .text-\[24px\] {
   font-size: 24px;
 }
@@ -814,20 +769,12 @@ video {
   font-weight: 700;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-extrabold {
   font-weight: 800;
 }
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.leading-\[20\.16px\] {
-  line-height: 20.16px;
 }
 
 .leading-\[30\.24px\] {
@@ -1023,10 +970,6 @@ video {
     padding-bottom: 4rem;
   }
 
-  .sm\:text-\[26px\] {
-    font-size: 26px;
-  }
-
   .sm\:text-\[32px\] {
     font-size: 32px;
   }
@@ -1077,10 +1020,6 @@ video {
 
 @media (min-width: 1024px) {
 
-  .lg\:bottom-20 {
-    bottom: 5rem;
-  }
-
   .lg\:w-\[80\%\] {
     width: 80%;
   }
@@ -1091,15 +1030,6 @@ video {
 
   .lg\:flex-\[0\.5\] {
     flex: 0.5;
-  }
-
-  .lg\:origin-\[0\2c 0\] {
-    transform-origin: 0,0;
-  }
-
-  .lg\:rotate-\[-90deg\] {
-    --tw-rotate: -90deg;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .lg\:flex-row {
