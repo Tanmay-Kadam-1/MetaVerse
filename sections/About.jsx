@@ -47,5 +47,3 @@ const About = () => (
 );
 
 export default About;
-
-// 51:22
