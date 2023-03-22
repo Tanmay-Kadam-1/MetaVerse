@@ -34,7 +34,7 @@ const About = () => (
 				easily explore the metaverse world you want, turn your dreams into
 				reality. Let's{" "}
 				<span className="font-extrabold text-white">explore</span> the madness
-				of the Metaverse by scrolling down
+				of the Metaverse by scrolling down.
 			</motion.p>
 			<motion.img
 				variants={fadeIn("up", "tween", 0.3, 1)}
