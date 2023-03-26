@@ -13,7 +13,7 @@ const GetStarted = () => (
 			/>
 			<motion.div
 				variants={fadeIn("left", "tween", 0.2, 1)}
-				className="flex-[0.75] ex justify-center flex-col"
+				className="flex-[0.75] ex justiy-center flex-col"
 			></motion.div>
 		</motion.div>{" "}
 	</section>
