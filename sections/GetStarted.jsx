@@ -9,7 +9,7 @@ const GetStarted = () => (
 			<img
 				src="/get-started.png"
 				alt="get-started"
-				className="w-[90%] h-[90%] object-contain"
+				className="w-[90%] h-[90%] object-"
 			/>
 			<motion.div
 				variants={fadeIn("left", "", 0.2, 1)}
