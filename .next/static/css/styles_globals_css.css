@@ -487,12 +487,12 @@ video {
   left: 0px;
 }
 
-.-top-\[30px\] {
-  top: -30px;
-}
-
 .bottom-0 {
   bottom: 0px;
+}
+
+.-top-\[30px\] {
+  top: -30px;
 }
 
 .z-0 {
@@ -521,6 +521,18 @@ video {
   margin-top: 8px;
 }
 
+.mb-\[16px\] {
+  margin-bottom: 16px;
+}
+
+.mt-\[24px\] {
+  margin-top: 24px;
+}
+
+.ml-\[30px\] {
+  margin-left: 30px;
+}
+
 .mt-\[28px\] {
   margin-top: 28px;
 }
@@ -529,20 +541,16 @@ video {
   margin-top: 50px;
 }
 
+.mt-\[31px\] {
+  margin-top: 31px;
+}
+
 .-mt-\[12px\] {
   margin-top: -12px;
 }
 
 .-mt-\[50px\] {
   margin-top: -50px;
-}
-
-.mb-\[16px\] {
-  margin-bottom: 16px;
-}
-
-.mt-\[24px\] {
-  margin-top: 24px;
 }
 
 .flex {
@@ -561,12 +569,28 @@ video {
   height: 100%;
 }
 
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
 .h-\[24px\] {
   height: 24px;
 }
 
+.h-\[70px\] {
+  height: 70px;
+}
+
 .h-\[28px\] {
   height: 28px;
+}
+
+.h-\[90\%\] {
+  height: 90%;
 }
 
 .h-\[300px\] {
@@ -585,39 +609,11 @@ video {
   height: 38px;
 }
 
-.h-\[60px\] {
-  height: 60px;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
 .min-h-\[70vh\] {
   min-height: 70vh;
 }
 
 .w-full {
-  width: 100%;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[24px\] {
-  width: 24px;
-}
-
-.w-\[18px\] {
-  width: 18px;
-}
-
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[100\%\] {
   width: 100%;
 }
 
@@ -629,8 +625,40 @@ video {
   width: 50%;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[24px\] {
+  width: 24px;
+}
+
+.w-\[70px\] {
+  width: 70px;
+}
+
+.w-\[18px\] {
+  width: 18px;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .min-w-\[170px\] {
   min-width: 170px;
+}
+
+.max-w-\[370px\] {
+  max-width: 370px;
 }
 
 .flex-\[10\] {
@@ -639,6 +667,14 @@ video {
 
 .flex-\[2\] {
   flex: 2;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-\[0\.75\] {
+  flex: 0.75;
 }
 
 .cursor-pointer {
@@ -685,6 +721,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-\[24px\] {
+  gap: 24px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -693,14 +733,14 @@ video {
   border-radius: 24px;
 }
 
-.rounded-r-\[50px\] {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
-
 .rounded-b-\[24px\] {
   border-bottom-right-radius: 24px;
   border-bottom-left-radius: 24px;
+}
+
+.rounded-r-\[50px\] {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .rounded-tl-\[140px\] {
@@ -723,6 +763,11 @@ video {
 
 .bg-\[rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
   background-color: rgba(0,0,0,0.5);
+}
+
+.bg-\[\#323F5D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(50 63 93 / var(--tw-bg-opacity));
 }
 
 .object-contain {
@@ -786,6 +831,14 @@ video {
   font-size: 40px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .text-\[24px\] {
   font-size: 24px;
 }
@@ -798,14 +851,6 @@ video {
   font-size: 44px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .font-normal {
   font-weight: 400;
 }
@@ -814,28 +859,32 @@ video {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .font-semibold {
   font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
+.leading-\[20\.16px\] {
+  line-height: 20.16px;
+}
+
 .leading-\[30\.24px\] {
   line-height: 30.24px;
 }
 
-.leading-\[64\.4px\] {
-  line-height: 64.4px;
+.leading-\[32\.4px\] {
+  line-height: 32.4px;
 }
 
-.leading-\[20\.16px\] {
-  line-height: 20.16px;
+.leading-\[64\.4px\] {
+  line-height: 64.4px;
 }
 
 .text-secondary-white {
@@ -846,6 +895,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#B0B0B0\] {
+  --tw-text-opacity: 1;
+  color: rgb(176 176 176 / var(--tw-text-opacity));
 }
 
 .transition-\[flex\] {
@@ -1023,16 +1077,16 @@ video {
     padding-bottom: 4rem;
   }
 
+  .sm\:text-\[26px\] {
+    font-size: 26px;
+  }
+
   .sm\:text-\[32px\] {
     font-size: 32px;
   }
 
   .sm\:text-\[60px\] {
     font-size: 60px;
-  }
-
-  .sm\:text-\[26px\] {
-    font-size: 26px;
   }
 
   .sm\:leading-\[74\.4px\] {
