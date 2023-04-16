@@ -7,6 +7,9 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
 		>
 			<img src={imgUrl} alt="icon" className="w-1/2 h-1/2 object-contain" />
 		</div>
+		<h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] text-white">
+			Title {title}
+		</h1>
 	</div>
 );
 
