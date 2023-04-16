@@ -1,9 +1,7 @@
-'use client';
+"use client";
 
-const World = () => (
-  <section>
-    World section
-  </section>
-);
+import { motion } from "framer-motion";
+
+const World = () => <section>World section</section>;
 
 export default World;
