@@ -41,7 +41,7 @@ const World = () => (
 				</div>
 
 				<div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-					<img src="people-03.pn alt="people" className="w-full h-full" />
+					<img src="people-03.pn alt="people" ="w-full h-full" />
 				</div>
 			</motion.div>
 		</motion.div>
