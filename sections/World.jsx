@@ -30,7 +30,7 @@ const World = () => (
 				variants={fadeIn("up", "tween", 0.3, 1)}
 				className="relative mt-[68px] flex w-full h-[550px]"
 			>
-				<div className=" right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
+				<div className="  w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
 
 				<div className=" top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
 
