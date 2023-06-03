@@ -33,8 +33,6 @@ const World = () => (
 				<div className="  w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
 
 				<div className=" top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
-
-				<div className="   w-[] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
 			</motion.div>
 		</motion.div>
 	</section>
