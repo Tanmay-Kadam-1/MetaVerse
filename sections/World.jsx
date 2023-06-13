@@ -26,9 +26,7 @@ const World = () => (
 				textStyles="text-center"
 			/>
 
-			<motion.div
-				variants={fadeIn("up "tween", 0.3, 1)}
-			>
+			<motion.div>
 				<div className="  w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
 			</motion.div>
 		</motion.div>
