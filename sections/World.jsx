@@ -23,7 +23,6 @@ const World = () => (
 						same world
 					</>
 				}
-				textStyles="text-center"
 			/>
 
 			<motion.div>
