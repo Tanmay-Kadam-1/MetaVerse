@@ -15,16 +15,6 @@ const World = () => (
 			viewport={{ once: false, amount: 0.25 }}
 			className={`${styles.innerWidth} mx-auto flex flex-col`}
 		>
-			<TypingText title="| People on the World" textStyles="text-center" />
-			<TitleText
-				title={
-					<>
-						Track friends around you and invite them to play together in the
-						same world
-					</>
-				}
-			/>
-
 			<motion.div>
 				<div className="  w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
 			</motion.div>
