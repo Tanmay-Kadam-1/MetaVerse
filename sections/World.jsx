@@ -15,9 +15,7 @@ const World = () => (
 			viewport={{ once: false, amount: 0.25 }}
 			className={`${styles.innerWidth} mx-auto flex flex-col`}
 		>
-			<motion.div>
-				<div className="  w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"></div>
-			</motion.div>
+			<motion.div></motion.div>
 		</motion.div>
 	</section>
 );
